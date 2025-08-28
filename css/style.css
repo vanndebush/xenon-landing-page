@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'DIN Next', sans-serif;
+  src: url(../font/din-next/regular.woff2) format('woff2'), url(../font/din-next/regular.woff) format('woff');
+}
+
+* {
+  font-family: 'DIN Next', sans-serif;
+}
