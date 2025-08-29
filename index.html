@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,183 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
+  <!-- ! S: navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img src="assets/images/offset-logo.png" alt="OFFSET Logo" width="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mt-3 mt-lg-0 text-center text-uppercase fw-semibold">
+          <li class="nav-item mb-2 mb-lg-0">
+            <a class="nav-link bg-secondary text-white rounded" href="#home">Home</a>
+          </li>
+          <li class="nav-item mb-2 mb-lg-0">
+            <a class="nav-link bg-secondary text-white rounded" href="#advantages">Advantages</a>
+          </li>
+          <li class="nav-item mb-2 mb-lg-0">
+            <a class="nav-link bg-secondary text-white rounded" href="#specifications">Specifications</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ! E: navbar -->
+
+  <!-- ! S: home -->
+  <section class="home py-4 text-center text-lg-start d-block d-lg-flex flex-lg-column justify-content-lg-center gap-lg-5">
+    <div class="container">
+      <h2 class="text-red mb-0">Xtreme. Xceptional. Xtraordinary.</h2>
+    </div>
+    <img src="assets/images/hero/1.jpg" alt="Hero 1" class="img-fluid mt-4 mb-1 my-sm-0">
+    <div class="container">
+      <a href="#advantages" class="btn btn-lg btn-red text-white shadow-sm shaking">Why <span class="fw-bold">XENON</span>?</a>
+    </div>
+  </section>
+  <section class="sub-home pt-4 py-lg-5">
+    <div class="container mb-4">
+      <div class="row justify-content-center row-gap-md-5 text-center">
+        <div class="col-md-6">
+          <h3 class="text-red">Xtreme</h3>
+          <h4>Power that pushes the most extreme tricks</h4>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-red">Xceptional</h3>
+          <h4>Stability you've never experienced before</h4>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-red">Xtraordinary</h3>
+          <h4 class="last">Comfort that makes your old yoyo jealous</h4>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/hero/2.jpg" alt="Hero 2" class="img-fluid">
+  </section>
+  <!-- ! E: home -->
+
+  <!-- ! S: advantages -->
+  <section id="advantages" class="advantages py-4">
+    <div class="container mb-5">
+      <div class="row text-center">
+        <div class="col-sm-6">
+          <h3 class="text-red">52mm</h3>
+          <h4 class="text-red">Width</h4>
+          <p class="text-red">Xtra wide to hit your biggest tricks</p>
+        </div>
+        <div class="col-sm-6">
+          <h3 class="text-red">65.8g</h3>
+          <h4 class="text-red">Weight</h4>
+          <p class="text-red">Xtreme Power & Xceptional Stability</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h1 class="text-red">Xtra Wide. Xtra Precise.</h1>
+        </div>
+        <div class="col-11 col-lg-8">
+          <h4 class="mb-0">At 52mm wide, XENON’s massive catch zone makes landing tricks & bangers feel easy & effortless. Effortlessly effortless.</h4>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/hero/3.jpg" alt="Hero 3" class="w-100">
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h1 class="text-red">Bigger. Bolder. Better.</h1>
+        </div>
+        <div class="col-11 col-lg-9">
+          <h4 class="mb-0">Why settle for less when you can go bigger? With an oversized diameter of 57.4mm, the XENON gives you that extra reach and makes every trick feel monumental.</h4>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/hero/4.jpg" alt="Hero 4" class="w-100">
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h1 class="text-red">No Sharp Edges. Just Comfort.</h1>
+        </div>
+        <div class="col-11 col-lg-9">
+          <h4 class="mb-0">Its rounded edges and smooth curves provide a comfortable grip and impact-absorbing shape like no other, making risky tricks feel safer.</h4>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/hero/5.jpg" alt="Hero 5" class="w-100">
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h1 class="text-red">Built for the Extreme Heat.</h1>
+        </div>
+        <div class="col-11 col-lg-9">
+          <h4 class="mb-0">The smooth-blasted inner body ensures long, smooth grinds even in hot & humid environments — perfect for players who demand performance in any condition.</h4>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/hero/6.jpg" alt="Hero 6" class="w-100">
+  </section>
+  <!-- ! E: advantages -->
+
+  <!-- ! S: specifications -->
+  <section id="specifications" class="specifications py-4">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-10 col-xl-6">
+          <p class="fw-bold">About the XENON</p>
+          <h3><span class="text-red">Xavier Ng</span>'s Signature Monometal Yoyo</h3>
+          <p><span class="fw-bold">XENON Collection 2</span> – Upgraded for peak performance:</p>
+          <p><span class="fw-bold">Wider Gap (+0.1mm):</span> Smoother binds, less snag.</p>
+          <p><span class="fw-bold">Heavier (+1g):</span> More power, more stability, longer spins.</p>
+          <p><span class="fw-bold">Shadow X & Mutant X:</span> No bi-metal styling = ultimate stability (Xavier-approved).</p>
+          <p><span class="fw-bold">Scarlet Violet:</span> Sleek pink inner rims – Xavier’s top pick!</p>
+          <p>Forged from durable 6061 aluminium and refined with bimetal styling, the XENON is the signature yoyo of 3-time Singapore National Champion Xavier Ng.</p>
+          <p>Its rounded shape offers an exceptional comfort in hand, while its precise weight distribution ensures rock-solid stability every throw.</p>
+          <p>This yoyo was used to win 2024 Singapore Nationals, making it the ultimate monometal weapon for competitive players.</p>
+          <p>(Disclaimer: this is not a bimetal, the rims on this monometal are polished)</p>
+        </div>
+        <div class="col-12 col-xl-5">
+          <div class="card bg-body-secondary p-2 p-md-4 p-xl-5">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Yoyo Type</span>
+                <span>Unresponsive</span>
+              </li>
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Diameter</span>
+                <span>57.4 mm</span>
+              </li>
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Width</span>
+                <span>52 mm</span>
+              </li>
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Weight</span>
+                <span>65.8 grams</span>
+              </li>
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Material</span>
+                <span>6061 Aluminium + Polished Rims</span>
+              </li>
+              <li class="list-group-item py-4 bg-body-secondary d-flex justify-content-between">
+                <span class="fw-bold text-red">Axle Length</span>
+                <span>8 mm</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! E: specifications -->
+
+  <!-- ! S: footer -->
+  <footer class="mt-5 mb-2">
+    <p class="text-red text-center">&copy; 2025 Bevann Stivens.</p>
+  </footer>
+  <!-- ! E: footer -->
 
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
